@@ -13,4 +13,5 @@ for i in range (n):
         print(first_num + second_num + third_num, end=', ')
         first_num = second_num
         second_num = third_num
-        third_num = third_num
+
+        third_num = third_num + second_num + first_num
